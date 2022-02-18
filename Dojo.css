@@ -1,0 +1,81 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .searchButton{
+    background-color: whitesmoke;
+    border: 3px solid lightseagreen;
+    color: lightseagreen;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 32px;
+    margin-left: 32px;
+    border-radius: 25px;
+    width: 100px;
+
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  height: 64px;
+  align-items: center;
+  overflow: hidden;
+}
+.col{
+  flex: 1;
+  background-color: cadetblue;
+  margin: 0px 16px;
+  padding: 16px;
+  font-size: 1.5rem;
+}
+
+.nav{
+  background-color: rgb(70, 70, 70);
+  display:flex;
+  flex-direction: row;
+  padding: 16px 16px;
+  margin: 16px;
+  align-items: center;
+}
+
+.nav-title{
+  color: white;
+  flex:1;
+  font-family: 'Roboto Serif', sans-serif;
+}
+.nav-links li{
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 16px;
+  font-family: 'Roboto Serif', sans-serif;
+}
+.nav-links li a{
+  color: white;
+  text-decoration: none;
+}
+.nav-links li a:hover{
+  color: rgb(202, 202, 202);
+}
+.btn{
+  background-color: dodgerblue;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  border: 4px solid rgba(0, 0, 0, 0.548);
+  box-shadow: black 2px 2px 1px 1px;
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+.btn:hover{
+  background-color: rgb(31, 135, 238);
+}
